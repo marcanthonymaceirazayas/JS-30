@@ -1,0 +1,48 @@
+/*
+Para referirte a una clase es .nombredelaclase
+*/
+.sound{
+  font-size: 2em;
+  color: yellow;
+  font-weight: bold;
+  padding: 4px;
+}
+html{
+  background-image: url("http://i.imgur.com/b9r5sEL.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.key{
+  width: 7em;
+  height: 7em;
+  border: 4px solid white;
+  background-color: rgba(0, 0, 0, 0.8);
+  float: left;
+  margin: 8px;
+  transition: all .07s ease;
+  /*Propiedades de flexbox:*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: scale()
+}
+kbd{
+  color: white;
+  font-size: 2em;
+}
+.keys{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.playing{
+  transform: scale(1.1);
+  border-color: rgb(0, 0, 0);
+  box-shadow: 0 0 1rem #ffc600;
+}
